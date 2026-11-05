@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.mjs text eol=lf
+*.cmd text eol=crlf
+# Preserve exact CSV bytes used by the result integrity checks.
+*.csv -text whitespace=cr-at-eol
+*.png binary
+*.pdf binary
+*.docx binary
+*.pptx binary

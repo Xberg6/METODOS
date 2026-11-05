@@ -1,0 +1,3 @@
+﻿x,latencia_ms,rendimiento_rps,tipo,procedencia,escenario
+20.0,24.0,833.3333333333334,frontera,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono
+100.0,40.0,2500.0,frontera,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono

@@ -1,0 +1,4 @@
+﻿concurrencia,latencia_ms,procedencia,escenario
+20,24.0,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,principal
+50,36.0,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,principal
+100,72.0,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,principal

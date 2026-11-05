@@ -1,0 +1,7 @@
+﻿nodo,cambio_porcentaje,optimo_x,optimo_entero,rendimiento_rps,estado,procedencia,escenario
+20,-5.0,100.0,100,2500.0,Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono
+20,5.0,100.0,100,2500.0,Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono
+50,-5.0,100.0,100,2500.0,Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono
+50,5.0,100.0,100,2500.0,Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono
+100,-5.0,100.0,100,2631.5789473684213,Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono
+100,5.0,100.0,100,2380.9523809523807,Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono

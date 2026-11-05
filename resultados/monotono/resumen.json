@@ -1,0 +1,537 @@
+{
+  "escenario": "monotono",
+  "simulado": true,
+  "etiqueta": "DATOS SIMULADOS / EJEMPLO DIDÁCTICO",
+  "datos_entrada": [
+    {
+      "concurrencia": 20,
+      "latencia_ms": 24.0
+    },
+    {
+      "concurrencia": 50,
+      "latencia_ms": 30.0
+    },
+    {
+      "concurrencia": 100,
+      "latencia_ms": 40.0
+    }
+  ],
+  "dominio": [
+    20.0,
+    100.0
+  ],
+  "unidades": {
+    "concurrencia": "solicitudes concurrentes",
+    "latencia": "ms",
+    "rendimiento": "solicitudes/s"
+  },
+  "metodo_interpolacion": "Newton con diferencias divididas",
+  "coeficientes": [
+    24.0,
+    0.2,
+    0.0
+  ],
+  "coeficientes_potencias": [
+    20.0,
+    0.2
+  ],
+  "formula": "L(x) = 20 +0.2 x",
+  "diferencias_divididas": [
+    [
+      24.0,
+      0.2,
+      0.0
+    ],
+    [
+      30.0,
+      0.2,
+      null
+    ],
+    [
+      40.0,
+      null,
+      null
+    ]
+  ],
+  "estado_biseccion": "No aplica (sin cambio de signo)",
+  "iteraciones": [],
+  "optimo_continuo": null,
+  "maximo_dominio": {
+    "x": 100.0,
+    "latencia_ms": 40.0,
+    "rendimiento_rps": 2500.0,
+    "tipo": "frontera"
+  },
+  "optimo_entero": 100,
+  "latencia_en_recomendacion_ms": 40.0,
+  "rendimiento_en_recomendacion_rps": 2500.0,
+  "candidatos_comparados": [
+    {
+      "x": 20.0,
+      "latencia_ms": 24.0,
+      "rendimiento_rps": 833.3333333333334,
+      "tipo": "frontera"
+    },
+    {
+      "x": 100.0,
+      "latencia_ms": 40.0,
+      "rendimiento_rps": 2500.0,
+      "tipo": "frontera"
+    }
+  ],
+  "vecinos": [
+    {
+      "x": 100,
+      "rendimiento_rps": 2500.0
+    }
+  ],
+  "enteros": [
+    {
+      "x": 20,
+      "rendimiento_rps": 833.3333333333334
+    },
+    {
+      "x": 21,
+      "rendimiento_rps": 867.7685950413223
+    },
+    {
+      "x": 22,
+      "rendimiento_rps": 901.6393442622951
+    },
+    {
+      "x": 23,
+      "rendimiento_rps": 934.9593495934959
+    },
+    {
+      "x": 24,
+      "rendimiento_rps": 967.741935483871
+    },
+    {
+      "x": 25,
+      "rendimiento_rps": 1000.0
+    },
+    {
+      "x": 26,
+      "rendimiento_rps": 1031.7460317460318
+    },
+    {
+      "x": 27,
+      "rendimiento_rps": 1062.992125984252
+    },
+    {
+      "x": 28,
+      "rendimiento_rps": 1093.75
+    },
+    {
+      "x": 29,
+      "rendimiento_rps": 1124.031007751938
+    },
+    {
+      "x": 30,
+      "rendimiento_rps": 1153.8461538461538
+    },
+    {
+      "x": 31,
+      "rendimiento_rps": 1183.206106870229
+    },
+    {
+      "x": 32,
+      "rendimiento_rps": 1212.1212121212122
+    },
+    {
+      "x": 33,
+      "rendimiento_rps": 1240.6015037593984
+    },
+    {
+      "x": 34,
+      "rendimiento_rps": 1268.6567164179105
+    },
+    {
+      "x": 35,
+      "rendimiento_rps": 1296.2962962962963
+    },
+    {
+      "x": 36,
+      "rendimiento_rps": 1323.5294117647059
+    },
+    {
+      "x": 37,
+      "rendimiento_rps": 1350.3649635036497
+    },
+    {
+      "x": 38,
+      "rendimiento_rps": 1376.8115942028985
+    },
+    {
+      "x": 39,
+      "rendimiento_rps": 1402.8776978417266
+    },
+    {
+      "x": 40,
+      "rendimiento_rps": 1428.5714285714287
+    },
+    {
+      "x": 41,
+      "rendimiento_rps": 1453.9007092198583
+    },
+    {
+      "x": 42,
+      "rendimiento_rps": 1478.8732394366198
+    },
+    {
+      "x": 43,
+      "rendimiento_rps": 1503.4965034965035
+    },
+    {
+      "x": 44,
+      "rendimiento_rps": 1527.7777777777778
+    },
+    {
+      "x": 45,
+      "rendimiento_rps": 1551.7241379310344
+    },
+    {
+      "x": 46,
+      "rendimiento_rps": 1575.3424657534247
+    },
+    {
+      "x": 47,
+      "rendimiento_rps": 1598.639455782313
+    },
+    {
+      "x": 48,
+      "rendimiento_rps": 1621.6216216216214
+    },
+    {
+      "x": 49,
+      "rendimiento_rps": 1644.2953020134228
+    },
+    {
+      "x": 50,
+      "rendimiento_rps": 1666.6666666666667
+    },
+    {
+      "x": 51,
+      "rendimiento_rps": 1688.7417218543046
+    },
+    {
+      "x": 52,
+      "rendimiento_rps": 1710.5263157894738
+    },
+    {
+      "x": 53,
+      "rendimiento_rps": 1732.0261437908496
+    },
+    {
+      "x": 54,
+      "rendimiento_rps": 1753.2467532467533
+    },
+    {
+      "x": 55,
+      "rendimiento_rps": 1774.1935483870968
+    },
+    {
+      "x": 56,
+      "rendimiento_rps": 1794.871794871795
+    },
+    {
+      "x": 57,
+      "rendimiento_rps": 1815.2866242038217
+    },
+    {
+      "x": 58,
+      "rendimiento_rps": 1835.4430379746834
+    },
+    {
+      "x": 59,
+      "rendimiento_rps": 1855.3459119496854
+    },
+    {
+      "x": 60,
+      "rendimiento_rps": 1875.0
+    },
+    {
+      "x": 61,
+      "rendimiento_rps": 1894.4099378881986
+    },
+    {
+      "x": 62,
+      "rendimiento_rps": 1913.5802469135804
+    },
+    {
+      "x": 63,
+      "rendimiento_rps": 1932.5153374233128
+    },
+    {
+      "x": 64,
+      "rendimiento_rps": 1951.2195121951222
+    },
+    {
+      "x": 65,
+      "rendimiento_rps": 1969.6969696969697
+    },
+    {
+      "x": 66,
+      "rendimiento_rps": 1987.9518072289154
+    },
+    {
+      "x": 67,
+      "rendimiento_rps": 2005.988023952096
+    },
+    {
+      "x": 68,
+      "rendimiento_rps": 2023.8095238095236
+    },
+    {
+      "x": 69,
+      "rendimiento_rps": 2041.4201183431953
+    },
+    {
+      "x": 70,
+      "rendimiento_rps": 2058.823529411765
+    },
+    {
+      "x": 71,
+      "rendimiento_rps": 2076.023391812865
+    },
+    {
+      "x": 72,
+      "rendimiento_rps": 2093.0232558139537
+    },
+    {
+      "x": 73,
+      "rendimiento_rps": 2109.8265895953755
+    },
+    {
+      "x": 74,
+      "rendimiento_rps": 2126.4367816091954
+    },
+    {
+      "x": 75,
+      "rendimiento_rps": 2142.8571428571427
+    },
+    {
+      "x": 76,
+      "rendimiento_rps": 2159.090909090909
+    },
+    {
+      "x": 77,
+      "rendimiento_rps": 2175.1412429378533
+    },
+    {
+      "x": 78,
+      "rendimiento_rps": 2191.0112359550562
+    },
+    {
+      "x": 79,
+      "rendimiento_rps": 2206.7039106145253
+    },
+    {
+      "x": 80,
+      "rendimiento_rps": 2222.222222222222
+    },
+    {
+      "x": 81,
+      "rendimiento_rps": 2237.5690607734805
+    },
+    {
+      "x": 82,
+      "rendimiento_rps": 2252.747252747253
+    },
+    {
+      "x": 83,
+      "rendimiento_rps": 2267.75956284153
+    },
+    {
+      "x": 84,
+      "rendimiento_rps": 2282.608695652174
+    },
+    {
+      "x": 85,
+      "rendimiento_rps": 2297.2972972972975
+    },
+    {
+      "x": 86,
+      "rendimiento_rps": 2311.827956989247
+    },
+    {
+      "x": 87,
+      "rendimiento_rps": 2326.20320855615
+    },
+    {
+      "x": 88,
+      "rendimiento_rps": 2340.4255319148933
+    },
+    {
+      "x": 89,
+      "rendimiento_rps": 2354.4973544973545
+    },
+    {
+      "x": 90,
+      "rendimiento_rps": 2368.4210526315787
+    },
+    {
+      "x": 91,
+      "rendimiento_rps": 2382.198952879581
+    },
+    {
+      "x": 92,
+      "rendimiento_rps": 2395.8333333333335
+    },
+    {
+      "x": 93,
+      "rendimiento_rps": 2409.3264248704663
+    },
+    {
+      "x": 94,
+      "rendimiento_rps": 2422.680412371134
+    },
+    {
+      "x": 95,
+      "rendimiento_rps": 2435.897435897436
+    },
+    {
+      "x": 96,
+      "rendimiento_rps": 2448.9795918367345
+    },
+    {
+      "x": 97,
+      "rendimiento_rps": 2461.9289340101523
+    },
+    {
+      "x": 98,
+      "rendimiento_rps": 2474.747474747475
+    },
+    {
+      "x": 99,
+      "rendimiento_rps": 2487.4371859296484
+    },
+    {
+      "x": 100,
+      "rendimiento_rps": 2500.0
+    }
+  ],
+  "minimo_latencia_ms": 24.0,
+  "parametros": {
+    "max_iter": 100,
+    "h": [
+      1,
+      0.1,
+      0.01,
+      0.001
+    ],
+    "x_consulta": 70
+  },
+  "consulta": {
+    "x": 70,
+    "latencia_ms": 34.0,
+    "rendimiento_rps": 2058.823529411765
+  },
+  "tolerancia": 1e-06,
+  "advertencias": [
+    "DATOS SIMULADOS / EJEMPLO DIDÁCTICO",
+    "La tasa es una estimación del modelo bajo régimen estable, no capacidad medida de un servidor.",
+    "Dominio restringido a los nodos. Las comprobaciones polinómicas usan punto flotante, no aritmética certificada."
+  ],
+  "mensaje": "Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio",
+  "derivadas": [
+    {
+      "h": 1.0,
+      "x": 70,
+      "analitica": 17.301038062283737,
+      "central": 17.301636734834915,
+      "error": 0.0005986725511775148
+    },
+    {
+      "h": 0.1,
+      "x": 70,
+      "analitica": 17.301038062283737,
+      "central": 17.30104404880649,
+      "error": 5.986522751300072e-06
+    },
+    {
+      "h": 0.01,
+      "x": 70,
+      "analitica": 17.301038062283737,
+      "central": 17.301038122127466,
+      "error": 5.984372819511918e-08
+    },
+    {
+      "h": 0.001,
+      "x": 70,
+      "analitica": 17.301038062283737,
+      "central": 17.301038062896623,
+      "error": 6.12885742157232e-10
+    }
+  ],
+  "sensibilidad": [
+    {
+      "nodo": 20,
+      "cambio_porcentaje": -5.0,
+      "optimo_x": 100.0,
+      "optimo_entero": 100,
+      "rendimiento_rps": 2500.0,
+      "estado": "Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio"
+    },
+    {
+      "nodo": 20,
+      "cambio_porcentaje": 5.0,
+      "optimo_x": 100.0,
+      "optimo_entero": 100,
+      "rendimiento_rps": 2500.0,
+      "estado": "Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio"
+    },
+    {
+      "nodo": 50,
+      "cambio_porcentaje": -5.0,
+      "optimo_x": 100.0,
+      "optimo_entero": 100,
+      "rendimiento_rps": 2500.0,
+      "estado": "Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio"
+    },
+    {
+      "nodo": 50,
+      "cambio_porcentaje": 5.0,
+      "optimo_x": 100.0,
+      "optimo_entero": 100,
+      "rendimiento_rps": 2500.0,
+      "estado": "Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio"
+    },
+    {
+      "nodo": 100,
+      "cambio_porcentaje": -5.0,
+      "optimo_x": 100.0,
+      "optimo_entero": 100,
+      "rendimiento_rps": 2631.5789473684213,
+      "estado": "Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio"
+    },
+    {
+      "nodo": 100,
+      "cambio_porcentaje": 5.0,
+      "optimo_x": 100.0,
+      "optimo_entero": 100,
+      "rendimiento_rps": 2380.9523809523807,
+      "estado": "Sin punto crítico interior; el máximo del modelo está en el extremo superior del dominio"
+    }
+  ],
+  "comparacion_tolerancias": [
+    {
+      "tolerancia": 0.01,
+      "iteraciones": 0,
+      "x": 100.0,
+      "error_referencia": null
+    },
+    {
+      "tolerancia": 0.0001,
+      "iteraciones": 0,
+      "x": 100.0,
+      "error_referencia": null
+    },
+    {
+      "tolerancia": 1e-06,
+      "iteraciones": 0,
+      "x": 100.0,
+      "error_referencia": null
+    }
+  ]
+}

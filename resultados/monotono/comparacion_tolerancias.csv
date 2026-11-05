@@ -1,0 +1,4 @@
+﻿tolerancia,iteraciones,x,error_referencia,procedencia,escenario
+0.01,0,100.0,,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono
+0.0001,0,100.0,,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono
+1e-06,0,100.0,,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,monotono

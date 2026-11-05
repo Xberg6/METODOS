@@ -1,0 +1,23 @@
+{
+  "escenario": "monotono",
+  "unidades": {
+    "concurrencia": "solicitudes concurrentes",
+    "latencia": "ms",
+    "rendimiento": "solicitudes/s"
+  },
+  "etiqueta": "DATOS SIMULADOS / EJEMPLO DID\u00c1CTICO",
+  "sha256": {
+    "datos_entrada.csv": "69c5f6777361b71cae284853cb5c7f36abe8502ed4a8209749b10ec0943659f4",
+    "candidatos_comparados.csv": "5a49298ad2354ea4ed0e988aad4da15284381a92eaf73b1a8b08f11d3097e8d7",
+    "enteros.csv": "2e1ba5d1d5dad9675af82b456f4ab53dd94f10708263992d2bd5ee205c1ca3aa",
+    "derivadas.csv": "8e1b222f86a0ab20fa0a75a4d8b594a4a01b9462764e9b4063de27e8d3973aaa",
+    "sensibilidad.csv": "ee8f7bf26762b0ae83c149ca041e84c9619b38d581c53258184b5eb4e422a7f7",
+    "comparacion_tolerancias.csv": "0732c3f5083ed6934c8a073a72ea7d4991e8ad82feccfe3796ff168f971e854e",
+    "iteraciones.csv": "a6e87e00ba5928535b921e382da5bd4a3faf8b96ee4cc903fb33616f70bc9c1b",
+    "curvas.csv": "79bbe310afd5bb07deabb258c43933b0394c85950da73fab3d356a52be9ef2ab",
+    "latencia.png": "8d08c49f27fe5c3c2d7eddf0202e253f0974614987fc52d59cf0cf764a61ad42",
+    "rendimiento.png": "9b0a87ef6eeefa2b341497e52698b04b82afb312baa7ff1d3cdced1d85d85f35",
+    "convergencia.png": "e83358af933c1bf8f366e08a80c16dd5af94917772fe016d7191ea2c78779ba4",
+    "sensibilidad.png": "66327ab6eac4667e10854a6ab855735623f669589bfa668d0c9fbff2923ee8d0"
+  }
+}

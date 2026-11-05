@@ -1,0 +1,7 @@
+﻿nodo,cambio_porcentaje,optimo_x,optimo_entero,rendimiento_rps,estado,procedencia,escenario
+20,-5.0,70.71067869663239,71,1449.3197383059291,Máximo interior verificado frente a los extremos y candidatos; enteros evaluados exhaustivamente.,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,principal
+20,5.0,70.71067869663239,71,1467.5637408406453,Máximo interior verificado frente a los extremos y candidatos; enteros evaluados exhaustivamente.,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,principal
+50,-5.0,65.63301265239716,66,1518.3862774689885,Máximo interior verificado frente a los extremos y candidatos; enteros evaluados exhaustivamente.,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,principal
+50,5.0,79.28249657154083,79,1412.459682321726,Máximo interior verificado frente a los extremos y candidatos; enteros evaluados exhaustivamente.,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,principal
+100,-5.0,78.49388659000397,78,1493.2688037002438,Máximo interior verificado frente a los extremos y candidatos; enteros evaluados exhaustivamente.,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,principal
+100,5.0,65.30931055545807,65,1434.6410638415273,Máximo interior verificado frente a los extremos y candidatos; enteros evaluados exhaustivamente.,DATOS SIMULADOS / EJEMPLO DIDÁCTICO,principal
